@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html>
+
+<head lang="en-US">
+<style>
+p.subject {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+</style>
+<title>12th Results</title>
+<link rel="icon" href="CBSE-logo.jpg" type="image/png">
+</head>
+<body style="background-color:Powderblue">
+<header>
+<div style="background-color:#00b3b3;width:%;margin:auto;" align="center">
+			
+			
+			<h1><img src="CBSE-logo.jpg" weight="80" height="80"><a style="margin:auto;">CBSE Results</a></h1>
+										
+			
+</div>
+<form name="form" action="12th marks.php" method="POST" onsubmit="return myFunction();">				
+ <fieldset>
+<h1 align="center" style="font-family:cambria;font-size:10"><U>Student's Details!</U></h1>
+
+<form action="new.php" method="POST" on input="X.value=parseInt(a.value)+parseInt(b.value)">
+<table border=1>
+<tr>
+<td>First Name:</td>
+<td><input type="text" name="sname" placeholder="Fname"></td>
+<td>Middle Name:</td>
+<td><input type="text" name="mname" placeholder="MName"></td>
+<td>Last name:</td>
+<td><input type="text" name="lname" placeholder="LName"></td>
+</tr>
+<tr>
+<td>Father's Name:</td>
+<td><input type="text" name="fname" placeholder="Father's Name"></td>
+<td>Mother's Name:</td>
+<td><input type="text" name="Mname" placeholder="Mother's Name"></td>
+</tr>
+<tr>
+<td>Date of Birth: </td>
+<td><input type="date" name="bday" placeholder="DD/MM/YY"></td>
+<td>Gender:</td>
+<td><input type="radio" name="gender" value="male" unchecked>Male
+    <input type="radio" name="gender" value="female" unchecked>Female</td>
+</tr>
+<td>
+Stream:</td><br>
+<td>
+  <select name="stream">
+  			<option value= "St" selected disabled>Select Stream</option>
+            <option value= "Science" >Science</option>
+            <option value= "Commerce" >Commerce</option>
+            <option value= "Arts" >Arts</option>
+  <br>
+  <br>
+  </td>
+  </table>
+  <br>	
+</td>
+</tr>
+<DIV class="color">
+<H1 align="center" style="font-family:cambria;font-size:10"><U>Student's Marks!</H1>
+
+<FIELDSET>
+<LEGEND> <p class="subject">SUBJECT MARKS</p> </LEGEND>
+<TABLE id="tbl2">
+<TR>
+<TD> Physics:</TD><TD> <INPUT type="text" name="phy" maxlength="2" size="10"/> Out of 80 </TD>
+</TR>
+<TR>
+<TD> Chemistry:</TD><TD>  <INPUT type="text" name="ch" maxlength="2" size="10"/> Out of 80</TD>
+</TR>
+<TR>
+<TD> Maths:</TD><TD> <INPUT type="text" name="math" maxlength="3" size="10"/> Out of 100</TD>
+</TR>
+<TR>
+<TD> English:</TD><TD> <INPUT type="text" name="eng" maxlength="2" size="10" /> Out of 80</TD>
+</TR>
+<TR>
+<TD> Biology:</TD><TD> <INPUT type="text" name="sub1" maxlength="2" size="10" /> Out of 80</TD>
+</TR>
+<TR>
+<TD> Computer Science:</TD><TD> <INPUT type="text" name="sub2" maxlength="2" size="10" /> Out of 80</TD>
+</TR>
+
+</TABLE>
+</FIELDSET>
+<DIV class="btn">
+<br>
+<p id="demo" style="display:none">Succesfully Submitted!</p>
+<input type="submit" onclick="myFunction()" value="Submit" class="button" name="Submit">
+<input type="reset" value="Reset" class="button">
+</DIV>
+
+</DIV>
+<script src="va.js"></script>
+</body>
